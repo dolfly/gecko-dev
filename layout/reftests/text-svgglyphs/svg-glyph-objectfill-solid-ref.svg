@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <rect x="20" y="20" width="160" height="160" fill="turquoise" />
-  <rect x="10" y="210" width="180" height="180" fill="thistle" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><rect width="160" height="160" x="20" y="20" fill="#40e0d0"/><rect width="180" height="180" x="10" y="210" fill="#d8bfd8"/></svg>

@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-
-<text></text>
-
-<script>
-window.addEventListener("load", function() {
-    document.getElementsByTagName('text')[0].getStartPositionOfChar(1);
-}, false);
-</script>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><script>window.addEventListener(&quot;load&quot;, function() { document.getElementsByTagName(&apos;text&apos;)[0].getStartPositionOfChar(1); }, false);</script></svg>

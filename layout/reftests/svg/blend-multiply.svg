@@ -1,16 +1,1 @@
-<!--
-     Any copyright is dedicated to the Public Domain.
-     http://creativecommons.org/publicdomain/zero/1.0/
--->
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400" >
-<defs>
-  <g id="patch">
-    <rect x="0" y="0" width="40" height="160" fill="rgb(255,0,0)"/>
-    <rect x="40" y="0" width="40" height="160" fill="rgb(0,255,0)"/>
-    <rect x="80" y="0" width="40" height="160" fill="rgb(0,0,255)"/>
-    <rect x="120" y="0" width="40" height="160" fill="rgb(127,127,0)"/>
-  </g>
-</defs>
-<use xlink:href="#patch" x="0" y="0" width="160" height="160"></use>
-<use xlink:href="#patch" x="0" y="0" width="160" height="160" transform="rotate(90 80 80)" style="mix-blend-mode: multiply"></use>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="400" height="400"><defs><g id="patch"><rect width="40" height="160" x="0" y="0" fill="red"/><rect width="40" height="160" x="40" y="0" fill="#0F0"/><rect width="40" height="160" x="80" y="0" fill="#00F"/><rect width="40" height="160" x="120" y="0" fill="#7F7F00"/></g></defs><use width="160" height="160" x="0" y="0" xlink:href="#patch"/><use width="160" height="160" x="0" y="0" transform="rotate(90 80 80)" xlink:href="#patch" style="mix-blend-mode:multiply"/></svg>
