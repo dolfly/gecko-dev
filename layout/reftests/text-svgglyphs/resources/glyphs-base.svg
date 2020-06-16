@@ -1,13 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-<!--
-    Basic test SVG glyphs
-    Covers glyph ID 47
--->
-  <!-- char = L -->
-  <g id="glyph47">
-    <rect x="100" y="-900" width="800" height="800" stroke-width="50"
-      stroke="black" fill="red"/>
-    <rect x="100" y="-1000" width="100" height="100" stroke="none"
-      fill="turquoise" />
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><g id="glyph47"><rect width="800" height="800" x="100" y="-900" fill="red" stroke="#000" stroke-width="50"/><rect width="100" height="100" x="100" y="-1000" fill="#40e0d0" stroke="none"/></g></svg>

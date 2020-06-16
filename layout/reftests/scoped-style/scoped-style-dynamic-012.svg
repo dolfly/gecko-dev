@@ -1,15 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" onload="f()">
-  <rect width="50" height="50"/>
-  <g>
-    <style scoped="">
-      rect { fill: blue }
-    </style>
-    <rect x="60" width="50" height="50"/>
-  </g>
-  <rect x="120" width="50" height="50"/>
-  <script>
-    function f() {
-      document.getElementsByTagName("style")[0].removeAttribute("scoped");
-    }
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" onload="f()"><rect width="50" height="50"/><g><style>rect{fill:#00f}</style><rect width="50" height="50" x="60"/></g><rect width="50" height="50" x="120"/><script>function f() { document.getElementsByTagName(&quot;style&quot;)[0].removeAttribute(&quot;scoped&quot;); }</script></svg>

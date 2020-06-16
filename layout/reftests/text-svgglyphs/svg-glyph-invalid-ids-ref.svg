@@ -1,6 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <rect x="20" y="20" width="160" height="160" stroke-width="10"
-      fill="lime" />
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><g><rect width="160" height="160" x="20" y="20" fill="#0f0" stroke-width="10"/></g></svg>

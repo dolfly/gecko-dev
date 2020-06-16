@@ -1,15 +1,1 @@
-<!--
-     Any copyright is dedicated to the Public Domain.
-     http://creativecommons.org/publicdomain/zero/1.0/
--->
-<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait">
-  <text x="30" y="30" fill="green" style="text-shadow: #cc9900 20px 12px 2px">Hello</text>
-  <script>
-    function f() {
-      document.getElementsByTagName("text")[0].style.textShadow = "grey 3px 3px";
-      document.documentElement.removeAttribute("class");
-    }
-
-    window.addEventListener("MozReftestInvalidate", f, false);
-  </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" class="reftest-wait"><text x="30" y="30" fill="green" style="text-shadow:#c90 20px 12px 2px">Hello</text><script>function f() { document.getElementsByTagName(&quot;text&quot;)[0].style.textShadow = &quot;grey 3px 3px&quot;; document.documentElement.removeAttribute(&quot;class&quot;); } window.addEventListener(&quot;MozReftestInvalidate&quot;, f, false);</script></svg>

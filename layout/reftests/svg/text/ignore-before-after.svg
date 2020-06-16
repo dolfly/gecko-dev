@@ -1,13 +1,1 @@
-<!--
-     Any copyright is dedicated to the Public Domain.
-     http://creativecommons.org/publicdomain/zero/1.0/
--->
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200">
-  <style>
-    text::before { content: "I said '" }
-    text::after { content: "'." }
-    tspan::before { content: "out " }
-    tspan::after { content: " to" }
-  </style>
-  <text x="100" y="100" style="font: 16px sans-serif">hello <tspan>there</tspan> everyone</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200"><style>text::before{content:&quot;I said &apos;&quot;}text::after{content:&quot;&apos;.&quot;}tspan::before{content:&quot;out &quot;}tspan::after{content:&quot; to&quot;}</style><text x="100" y="100" style="font:16px sans-serif">hello <tspan>there</tspan> everyone</text></svg>

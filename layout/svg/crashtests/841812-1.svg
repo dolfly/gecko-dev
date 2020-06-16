@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <text>
-        <circle>
-            <textPath id="t" xlink:href="data:text/html,1" />
-        </circle>
-    </text>
-
-    <script>
-        window.addEventListener("load", function() { document.getElementById("t").removeAttribute('xlink:href'); }, false);
-    </script>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><text><circle><textPath id="t" xlink:href="data:text/html,1"/></circle></text><script>window.addEventListener(&quot;load&quot;, function() { document.getElementById(&quot;t&quot;).removeAttribute(&apos;xlink:href&apos;); }, false);</script></svg>

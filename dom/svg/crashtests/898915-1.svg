@@ -1,5 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <text>
-    <animate attributeName="y" by="" />
-  </text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg"><text><animate attributeName="y"/></text></svg>

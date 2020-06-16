@@ -1,15 +1,4 @@
-<!-- This Source Code Form is subject to the terms of the Mozilla Public
-   - License, v. 2.0. If a copy of the MPL was not distributed with this
-   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
-
-<svg version="1.1"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:svg="http://www.w3.org/2000/svg"
-     width="30px"
-     height="31px"
-     preserveAspectRatio="none">
-  <defs>
-    <style><![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="30" height="31" preserveAspectRatio="none" version="1.1"><defs><style><![CDATA[
 
 %filter substitution
 
@@ -37,12 +26,4 @@
         }
       }
 %endif
-    ]]></style>
-
-%include ../../base/content/tab-shape.inc.svg
-
-  </defs>
-  <foreignObject width="30" height="31" clip-path="url(#tab-curve-clip-path-@TAB_SIDE@)">
-    <div id="tab-background-fill" xmlns="http://www.w3.org/1999/xhtml"></div>
-  </foreignObject>
-</svg>
+    ]]></style>%include ../../base/content/tab-shape.inc.svg</defs><foreignObject width="30" height="31" clip-path="url(#tab-curve-clip-path-@TAB_SIDE@)"><div xmlns="http://www.w3.org/1999/xhtml" id="tab-background-fill"/></foreignObject></svg>

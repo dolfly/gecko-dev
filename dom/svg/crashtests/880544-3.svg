@@ -1,5 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg">
-  <script>//<![CDATA[
+<svg xmlns="http://www.w3.org/2000/svg"><script>//<![CDATA[
 
 function add_watch()
 {
@@ -8,8 +7,4 @@ function add_watch()
 
 window.addEventListener("load", add_watch, false);
 
-  //]]></script>
-
-  <text id="e" rotate="10">foo</text>
-
-</svg>
+  //]]></script><text id="e" rotate="10">foo</text></svg>

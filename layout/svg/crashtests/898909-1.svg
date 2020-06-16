@@ -1,11 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" requiredFeatures="foo">
-
-  <text id="t" />
-
-  <script>
-    window.addEventListener("load", function() {
-      document.getElementById("t").getComputedTextLength();
-    }, false);
-  </script>
-
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" requiredFeatures="foo"><script>window.addEventListener(&quot;load&quot;, function() { document.getElementById(&quot;t&quot;).getComputedTextLength(); }, false);</script></svg>
